@@ -10,8 +10,8 @@ export default function NavBar() {
         <Nav.Link className='logoImgContainer' ><img href='/' className='logoImg' src={logo}></img></Nav.Link>
         {/* hamburger */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" >
-          <Nav className="me-auto">
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end hamburger" >
+          <Nav >
             <Nav.Link href="/about" className='navLinkChild'>About</Nav.Link>
             <Nav.Link href="/contact" className='navLinkChild'>Contact</Nav.Link>
             <Nav.Link href="/services" className='navLinkChild'>Services</Nav.Link>

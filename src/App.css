@@ -2,8 +2,9 @@
 .logoImg {
   display: block;
   /* color: #000; */
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
 }
 
 /* add shadow on logo when hovering so users know they can click it */
@@ -11,24 +12,25 @@
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
 }
 
-/* @media (min-width: 915px) {
+@media screen and (max-width: 1368px) {
   .logoImg {
-    width: 200px;
+    display: block;
+    width: 100%;
   }
-} */
+}
 
 
   @media screen and (max-width: 768px) {
     .logoImg{
     display: block;
     /* keep logo image and hamburger menu aligned */
-    position: fixed;
-    top: -15px;
-    left: -15px;
+    /* position: fixed; */
+    /* top: -15px;
+    left: -15px; */
     /* transform: translate(-100%, 75%); */
     /* font-size: 1.8rem; */
-    cursor: pointer;
-    width: 150px;
+  
+    /* width: 150px; */
   }
 }
 
@@ -60,3 +62,30 @@
  justify-content:center;
 }
 }  
+
+/* -----------------------About --------------------- */
+
+/* container around everything in about */
+#aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 100px;
+  box-shadow: #eecccc 0px 0px 15px;
+  padding-top: 170px;
+  /* padding-bottom: 170px; */
+}
+
+
+/* each section of about */
+.about {
+  text-align: center;
+  margin: 20px;
+}
+
+#famImg {
+  width: 80%;
+}
+
