@@ -19,19 +19,23 @@
   }
 }
 
-.navlink {
-  justify-content: space-between;
-  margin: 15px;
-  flex-wrap: nowrap;
+
+  @media screen and (max-width: 915px) {
+    .navLink {
+ /* display: flex;
+ justify-content: flex-end; */
+}
 }
 
-@media screen and (max-width: 768px) {
-  .navlink {
-    display: none;
-  top: 0;
-  right: 0;
-  /* transform: translate(-100%, 75%); */
-  font-size: 1.8rem;
+.navLinkChild {
+  display: flex;
+  justify-content: space-between;
+}
+
+ @media screen and (max-width: 915px) {
+  .navLinkChild {
   cursor: pointer;
+  display: flex;
+ justify-content:center;
 }
-}
+}  
