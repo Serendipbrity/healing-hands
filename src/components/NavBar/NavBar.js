@@ -5,9 +5,9 @@ import logo from '../../assets/images/logo.svg';
 
 export default function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" className='navBar' variant="light">
       <Container>
-        <Nav.Link ><img href='/' className='logoImg' src={logo}></img></Nav.Link>
+        <Nav.Link className='logoImgContainer' ><img href='/' className='logoImg' src={logo}></img></Nav.Link>
         {/* hamburger */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
