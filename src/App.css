@@ -34,7 +34,7 @@
   }
 }
 
-/* -----------------------Nav Bar --------------------- */
+/* -----------------------Nav Bar / Footer --------------------- */
 
 /* entire nav bar */
 .navBar {
@@ -63,6 +63,33 @@
 }
 }  
 
+/* Iphone 11 */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  #fText {
+    margin: 10px;
+    padding:10px;
+    /* flip text and icons */
+    order:2;
+  }
+}
+
+/* Iphone 11 */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  #fBtn{
+    position: absolute;
+    margin: 20%;
+    padding-top: 30%;
+  }
+}
+
+/* Iphone 11 */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  #fBtn .fBtn {
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
 /* -----------------------About --------------------- */
 
 /* container around everything in about */
@@ -78,6 +105,21 @@
   /* padding-bottom: 170px; */
 }
 
+/* Iphone 11 */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  #aboutContainer {
+    margin: 0px;
+    padding-top: 0px;
+    box-shadow: none;
+  }
+}
+/* this isn't doing anything --- needs fixed */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  .aboutText {
+    font-size: 10px;
+  }
+}
+
 
 /* each section of about */
 .about {
@@ -88,4 +130,11 @@
 #famImg {
   width: 80%;
 }
+
+#aboutText {
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 10%;
+}
+
 
