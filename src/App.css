@@ -52,16 +52,24 @@
   white-space: nowrap;
   color: rgb(248, 246, 246);
   text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  border-radius: 3px;
+  align-items: center;
+  margin: 15px;
+}
+
+.navLinkChild:hover {
+  background-color: rgba(242, 211, 247, 0.5);
 }
 
 /* each nav link on small screens */
- @media screen and (max-width: 915px) {
+ /* @media screen and (max-width: 915px) {
   .navLinkChild {
   cursor: pointer;
   display: flex;
  justify-content:center;
 }
-}  
+}   */
 
 /* Iphone 11 */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
@@ -72,6 +80,7 @@
     order:2;
   }
 }
+
 
 /* Iphone 11 */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
@@ -103,6 +112,10 @@
   box-shadow: #eecccc 0px 0px 15px;
   padding-top: 170px;
   /* padding-bottom: 170px; */
+  background-image: url('./assets/images/pinkLotus1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* Iphone 11 */
@@ -135,6 +148,7 @@
   font-size: 1.5rem;
   margin: 20px;
   padding: 10%;
+  background-color: rgb(248, 246, 246, 0.5);
 }
 
 

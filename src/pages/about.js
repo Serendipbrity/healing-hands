@@ -1,5 +1,6 @@
 import React from 'react';
 import fam from '../assets/images/fam.jpeg';
+import pinkLotus from '../assets/images/pinkLotus1.jpg';
 const About = () => {
   return (
     <div id='aboutContainer'>
