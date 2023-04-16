@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/healing-hands">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home/>} />
