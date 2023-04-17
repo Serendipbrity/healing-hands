@@ -82,6 +82,10 @@
 }
 
 
+.fBtn {
+  margin: 10px;
+}
+
 /* Iphone 11 */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
   #fBtn{
@@ -95,7 +99,6 @@
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
   #fBtn .fBtn {
     display: inline-block;
-    margin: 0 5px;
   }
 }
 
