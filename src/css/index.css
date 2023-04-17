@@ -1,5 +1,6 @@
 @import url('Nav-Footer.css');
 @import url('About.css');
+@import url('Contact.css');
 
 :root {
     --color-one: rgba(250, 247, 248, 0.4);

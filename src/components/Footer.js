@@ -1,12 +1,9 @@
 import React from "react";
 import {
-  CDB,
   CDBModalFooter,
-  CDBFooterLink,
   CDBBtn,
   CDBIcon,
   CDBBox,
-  CDBContainer,
 } from "cdbreact";
 import logo from "../assets/images/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -31,12 +28,6 @@ const Footer = () => {
             </a>
           </a>
         </CDBBox>
-        {/* 
-              <CDBBox  >
-          <small id='address' className="ms-2 " >
-            Visit us at:
-          </small>
-        </CDBBox> */}
 
         <CDBBox display="flex" id="fBtn">
           <CDBBtn flat color="dark" className="p-2 fBtn">

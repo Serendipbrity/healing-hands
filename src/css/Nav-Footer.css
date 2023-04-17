@@ -9,8 +9,12 @@
     /* box-shadow: #000000 0px 0px 10px; */
     box-shadow: #eecccc 0px 0px 15px;
     background-color: var(--color-three);
+    background-image: linear-gradient(to right, #fff, var(--color-two));
+    transition: background-color 0.5s ease;
     /* position:sticky; */
   }
+
+ 
   
   /* each nav link on regular full screens */
   .navLinkChild {
@@ -27,8 +31,13 @@
   }
   
   .navLinkChild:hover {
-    background-color: rgba(242, 211, 247, 0.5);
+    background-image: linear-gradient(to right, #fff, var(--color-two));
+    transition: background-color 0.5s ease;
+    backdrop-filter: blur(10px);
+    text-shadow: 1px #000000;;
   }
+
+ 
 
 .logoImg {
     display: block;
@@ -124,12 +133,4 @@
     }
   }
 
-  /* Iphone 11 address text */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    #address {
-      /* margin: 10px;
-      padding:10px; */
-      /* flip text and icons */
-      order:2;
-    }
-  }
+

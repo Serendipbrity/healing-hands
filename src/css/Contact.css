@@ -1,0 +1,79 @@
+/* ----------- Contact CSS ------------- */
+
+/* #wrapNoMap {
+    background-image: url('../assets/images/pinkLotus2.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+/* Iphone 11 - Contact Container */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #wrapNoMap {
+        background-image: url('../assets/images/alexander-grey-NkQD-RHhbvY-unsplash.jpg');
+      
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* height: 25vh; */
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+}
+
+/* Iphone 11 - Contact Container */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #contact {
+     height: 90vh;
+    }
+}
+
+
+/* Iphone 11 - Contact Heading */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #contactHeading {
+     margin: 40px;
+    }
+}
+
+/* Iphone 11 - Phone */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .call {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+}
+
+/* Iphone 11 - Contact and Address */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .contact-address {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+/* Iphone 11 - Contact and Address */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+   .call, #address {
+      font-size: 25px;
+
+    }
+}
+
+/* Iphone 11 - Address */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #address {
+      margin: 30px;
+      float: left;
+    }
+}
+
+/* Iphone 11 - Map */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #map {
+      height: 55vh;
+      
+    }
+}
