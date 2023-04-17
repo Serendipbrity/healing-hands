@@ -16,7 +16,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <CDBModalFooter className="shadow navBar">
+    <CDBModalFooter className="shadow nfBar">
       <CDBBox
         display="flex"
         justifyContent="between"
@@ -27,29 +27,33 @@ const Footer = () => {
         <CDBBox display="flex" alignItems="center">
           <a href="/" className="d-flex align-items-center p-0 text-dark">
             <a className="logoImgContainer">
-              <img href="/" className="logoImg" src={logo}></img>
+              <img href="/" className="logoImg" id="logoImg" src={logo}></img>
             </a>
           </a>
         </CDBBox>
-        <CDBBox id="fText">
-          <small className="ms-2">
-            &copy; Healing Hands, 2023. All rights reserved.
+        {/* 
+              <CDBBox  >
+          <small id='address' className="ms-2 " >
+            Visit us at:
           </small>
-        </CDBBox>
-              <CDBBox display="flex" id="fBtn">
-                  
+        </CDBBox> */}
+
+        <CDBBox display="flex" id="fBtn">
           <CDBBtn flat color="dark" className="p-2 fBtn">
             <CDBIcon fab icon="facebook-f" />
           </CDBBtn>
 
           <CDBBtn flat color="dark" className=" fBtn ">
-           
             <FontAwesomeIcon icon={faLocationDot} className="fa-thin" />
           </CDBBtn>
           <CDBBtn flat color="dark" className=" fBtn ">
-
             <FontAwesomeIcon icon={faPhone} className="fa-thin" />
           </CDBBtn>
+        </CDBBox>
+        <CDBBox>
+          <small className="ms-2" id="fText">
+            &copy; Healing Hands, 2023. All rights reserved.
+          </small>
         </CDBBox>
       </CDBBox>
     </CDBModalFooter>

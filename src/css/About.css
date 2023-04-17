@@ -1,0 +1,57 @@
+/* ----------------------- About Page CSS --------------------- */
+  
+  /* -------- container around everything in about -------- */
+  #aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 100px;
+    box-shadow: #eecccc 0px 0px 15px;
+    padding-top: 170px;
+    /* padding-bottom: 170px; */
+    background-image: url('../assets/images/pinkLotus1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  /* Iphone 11 */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #aboutContainer {
+      margin: 0px;
+      padding-top: 0px;
+      box-shadow: none;
+    }
+  }
+
+  /* ----------------------------------------- */
+
+  /* ----------- About Text ------------ */
+  #aboutText {
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 10%;
+    background-color: rgb(248, 246, 246, 0.5);
+  }
+
+  /* Iphone 11 - this isn't doing anything - needs fixed */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .aboutText {
+      font-size: 10px;
+    }
+  }
+
+/* ----------------------------------------- */
+
+  /* each section of about */
+.about {
+    text-align: center;
+    margin: 20px;
+  }
+
+  /* Family Picture */
+  #famImg {
+    width: 80%;
+  }

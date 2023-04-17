@@ -9,7 +9,7 @@ import About from "./pages/about";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
-import "./App.css";
+import "./css/index.css";
 
 
 function App() {
