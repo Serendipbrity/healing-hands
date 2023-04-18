@@ -73,7 +73,6 @@
 /* Iphone 11 - Map */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #map {
-      height: 55vh;
-      
+      width: 100vw;
     }
 }
