@@ -1,0 +1,76 @@
+/* ------------------ Services CSS -------------- */
+
+
+/* Services Container */
+#services {
+    background-image: url('../assets/images/hands.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* iphone 11 Services Container */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #services {
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+/* iphone 11 Services Heading */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+#services h1 {
+    color:white;
+    text-align: center;
+    margin: 20%;
+    font-size: 35px;
+}
+}
+
+/* iphone 11 background wrap of services */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+#serviceWrap {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 30px;
+}
+}
+
+/* iphone 11 Text inside Services */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+.text {
+    text-align: center;
+    margin: 20%;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+}
+
+/* iphone 11 Services Button */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+#sBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+    margin:auto;
+    background-color: var(--color-two);
+    background-image: linear-gradient(to left, #fff, var(--color-three));
+    transition: background-color 0.5s ease;
+    border: none;
+}
+}
+
+/* iphone 11 Hover effect over services button */
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+#sBtn:hover {
+    background-color: var(--color-three);
+    background-image: linear-gradient(to right, #fff, var(--color-two));
+    transition: background-color 0.5s ease;
+    padding: 17px;
+}
+}

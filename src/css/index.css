@@ -1,9 +1,10 @@
-@import url('Nav-Footer.css');
-@import url('About.css');
-@import url('Contact.css');
+@import url("Nav-Footer.css");
+@import url("About.css");
+@import url("Contact.css");
+@import url("Services.css");
 
 :root {
-    --color-one: rgba(250, 247, 248, 0.4);
-    --color-two: rgba(239, 15, 15, 0.2);
-    --color-three: rgb(246, 229, 229);
-  }
+  --color-one: rgba(250, 247, 248, 0.4);
+  --color-two: rgba(239, 15, 15, 0.2);
+  --color-three: rgb(246, 229, 229);
+}
