@@ -11,8 +11,16 @@ export default function NavBar() {
       <Container>
         <Nav.Link className='logoImgContainer' id='logoImgContainer'><img as={Link} to="/" className='logoImg' src={logo}></img>
         </Nav.Link>
-                {/* <p>Healing Hands</p> */}
-          {/* <p id='tagline'>Massage Therapy</p> */}
+
+        {/* ------- text version of logo ---------- */}
+        {/* <Nav.Link className='logoImgContainer navHH' id='logoImg'>
+        <img as={Link} to="/" className='logoImg navHH' src={icon}></img>
+                <p id="title" className='navHH'>Healing Hands</p> 
+          <p id='tagline' className='navHH'>Massage Therapy</p>
+          </Nav.Link> */}
+        {/* ----------------------------------------- */}
+        
+
         {/* hamburger */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" id='hamburger'/>
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end hamburger" >

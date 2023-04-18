@@ -38,14 +38,13 @@
   }
 
  
-
+/* 
 .logoImg {
     display: block;
-    /* color: #000; */
     height: 250px;
     width: 250px;
     cursor: pointer;
-  }
+  } */
 
   /* add shadow on logo when hovering so users know they can click it */
 .logoImg:hover {
@@ -69,12 +68,13 @@
 #tagline {
     text-align: center;
     display: flex;
-    position: relative;
+    /* position: relative; */
     justify-content: center;
     font-size: larger;
     font-weight: bold;
     margin-top: 0px;
   }
+
 
 /* Iphone 11 navbar logo - align with hamburger menu*/
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
@@ -83,6 +83,44 @@
       width: 80%;
     }
   }
+
+/* ------------------------CSS for using a text version of logo rather than svg ----------------------------*/
+
+  /* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #title {
+      font-size: 30px;
+      margin-top: -10;
+      margin-bottom: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: lighter;
+    }
+  } */
+
+   /* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .logoImg {
+      width:50%;
+      display: flex;
+      align-items: center;
+      margin-left: 45%;
+      margin-bottom: -15px;
+    }
+  } */
+
+  /* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #tagline {
+      font-size: 15px;
+      margin-top: -5px;
+    }
+  } */
+
+  /* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .logoImgContainer {
+      margin: 25px;
+      position: relative;
+    }
+  } */
+
+  /* ------------------------------------- */
 
   /* iphone 11 hamburger menu - align menu with logo  */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
@@ -99,6 +137,15 @@
     margin: 10px;
   }
 
+  .footerImg {
+    text-decoration: none;
+    color: black;
+    height: 30vh;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    
+  }
+
   /* Iphone 11 Icon Button Container */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #fBtn{
@@ -111,8 +158,9 @@
 
   /* Iphone 11 */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    #fBtn .fBtn {
+    #fBtn, .fBtn {
       display: inline-block;
+    
     }
 }
 
@@ -126,7 +174,7 @@
 /* Iphone 11 copyright text */
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #fText {
-      margin: 10px;
+      margin: 20px;
       padding:10px;
       /* flip text and icons */
       /* order:2; */

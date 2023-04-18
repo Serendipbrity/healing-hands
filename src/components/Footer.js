@@ -4,12 +4,14 @@ import {
   CDBBtn,
   CDBIcon,
   CDBBox,
+
 } from "cdbreact";
 import logo from "../assets/images/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+// import icon from "../assets/images/icon.svg";
 
 const Footer = () => {
   return (
@@ -28,6 +30,18 @@ const Footer = () => {
             </a>
           </a>
         </CDBBox>
+
+        {/* --------------- text version of logo ----------- */}
+        {/* <CDBBox display="flex" alignItems="center">
+          <a href="/" className="text-dark footerImg ">
+            <a className="footerImg">
+              <img href="/" className="logoImg" id="logoImg" src={icon}></img>
+               <p id="title">Healing Hands</p> 
+          <p id='tagline'>Massage Therapy</p>
+            </a>
+          </a>
+        </CDBBox> */}
+        {/* ----------------------------------------------- */}
 
         <CDBBox display="flex" id="fBtn">
           <CDBBtn flat color="dark" className="p-2 fBtn">
