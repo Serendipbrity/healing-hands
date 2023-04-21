@@ -31,7 +31,7 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" id='hamburger' />
         
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end hamburger" >
-          <Nav basename="/healing-hands">
+          <Nav>
             <Nav.Link onClick={handleLinkClick} as={Link} to="/about" className='navLinkChild'>About</Nav.Link>
             <Nav.Link onClick={handleLinkClick} as={Link} to="/contact" className='navLinkChild'>Contact</Nav.Link>
             <Nav.Link onClick={handleLinkClick} as={Link} to="/services" className='navLinkChild'>Services</Nav.Link>
