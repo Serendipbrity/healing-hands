@@ -23,16 +23,17 @@
   color: rgb(248, 246, 246);
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5px;
   align-items: center;
   margin: 15px;
+  font-weight: 500;
 }
 
 .navLinkChild:hover {
   background-image: linear-gradient(to right, #fff, var(--color-two));
   transition: background-color 0.5s ease;
   backdrop-filter: blur(10px);
-  text-shadow: 1px #000000;
+  text-shadow: none;
 }
 
 /* 
@@ -59,16 +60,23 @@
 
 /* ---------------- Only Nav ------------ */
 
+/* Iphone 11 navbar logo - align with hamburger menu*/
+@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  #booknowNav {
+    margin-bottom: 40px;
+  }
+}
+
 /* sub text under logo */
-#tagline {
+/* #tagline {
   text-align: center;
-  display: flex;
+  display: flex; */
   /* position: relative; */
-  justify-content: center;
+  /* justify-content: center;
   font-size: larger;
   font-weight: bold;
   margin-top: 0px;
-}
+} */
 
 /* Iphone 11 navbar logo - align with hamburger menu*/
 @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
