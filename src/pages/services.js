@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Services = () => {
   return (
     <div id='services'
@@ -12,7 +11,7 @@ const Services = () => {
       <h3 className='text'>60 minutes $75</h3>
       <h3 className='text'>90 minutes $105</h3>
       </div>
-      <button id='sBtn'>Book Now</button>
+      <button id='sBtn' href="" onClick={() => window.Calendly.initPopupWidget({url: 'https://calendly.com/bcourt95'})}>Book Now</button>
       </div>
   );
 };

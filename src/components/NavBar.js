@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../../assets/images/logo.svg';
+import logo from '../assets/images/logo.svg';
 import { Link } from 'react-router-dom';
-import icon from '../../assets/images/icon.svg';
+import icon from '../assets/images/icon.svg';
 
 export default function NavBar() {
   return (
@@ -28,8 +28,9 @@ export default function NavBar() {
             <Nav.Link as={Link} to="/about" className='navLinkChild'>About</Nav.Link>
             <Nav.Link as={Link} to="/contact" className='navLinkChild'>Contact</Nav.Link>
             <Nav.Link as={Link} to="/services" className='navLinkChild'>Services</Nav.Link>
-            <Nav.Link as={Link} to="/signUp" className='navLinkChild'>Sign Up</Nav.Link>
-            <Nav.Link as={Link} to="/signIn" className='navLinkChild'>Sign In</Nav.Link>
+            <Nav.Link as={Link} to="/booknow" className='navLinkChild' href="" onClick={() => window.Calendly.initPopupWidget({url: 'https://calendly.com/bcourt95'})}>Book Now</Nav.Link>
+            {/* <Nav.Link as={Link} to="/signUp" className='navLinkChild'>Sign Up</Nav.Link>
+            <Nav.Link as={Link} to="/signIn" className='navLinkChild'>Sign In</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

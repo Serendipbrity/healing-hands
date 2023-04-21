@@ -6,7 +6,7 @@ import Contact from "./pages/contact";
 import SignIn from "./pages/signIn";
 import SignUp from "./pages/signUp";
 import About from "./pages/about";
-import NavBar from "./components/NavBar/NavBar";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import "./css/index.css";
@@ -23,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/signIn" element={<SignIn />} />
+        <Route path="/bookNow" element={<Services />} />
       </Routes>
       <Footer />
     </Router>
