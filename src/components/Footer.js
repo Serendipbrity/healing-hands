@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 // import icon from "../assets/images/icon.svg";
 
 const Footer = () => {
@@ -44,15 +45,15 @@ const Footer = () => {
         {/* ----------------------------------------------- */}
 
         <CDBBox display="flex" id="fBtn">
-          <CDBBtn flat color="dark" className="p-2 fBtn">
+          <CDBBtn href="https://www.facebook.com/barbara.turbin" flat color="dark" className="p-2 fBtn">
             <CDBIcon fab icon="facebook-f" />
           </CDBBtn>
 
-          <CDBBtn flat color="dark" className=" fBtn ">
-            <FontAwesomeIcon icon={faLocationDot} className="fa-thin" />
+          <CDBBtn as={Link} to="/contact" flat color="dark" className=" fBtn ">
+            <FontAwesomeIcon  icon={faLocationDot} className="fa-thin" />
           </CDBBtn>
-          <CDBBtn flat color="dark" className=" fBtn ">
-            <FontAwesomeIcon icon={faPhone} className="fa-thin" />
+          <CDBBtn href="tel:+1234567890" flat color="dark" className=" fBtn ">
+            <FontAwesomeIcon  icon={faPhone} className="fa-thin" />
           </CDBBtn>
         </CDBBox>
         <CDBBox>
