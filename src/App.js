@@ -8,7 +8,7 @@ import SignUp from "./pages/signUp";
 import About from "./pages/about";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, } from "react-router-dom";
 import "./css/index.css";
 
 
