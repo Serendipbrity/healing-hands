@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./pages/home";
 import Services from "./pages/services";
 import Contact from "./pages/contact";
 import SignIn from "./pages/signIn";
@@ -14,7 +13,7 @@ import "./css/index.css";
 
 function App() {
   return (
-    <Router basename="/healing-hands">
+    <Router>
       <NavBar />
       <Routes>
         <Route path="/" element={<About/>} />
