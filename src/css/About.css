@@ -17,16 +17,21 @@
   }
 
   /* Small screens - Samsung s20 ultra and below */
-@media screen and (max-width: 414px) and (max-height: 915px) and (-webkit-device-pixel-ratio: 2) {
+/* @media screen and (max-width: 414px) and (max-height: 915px) and (-webkit-device-pixel-ratio: 2) {
     #aboutContainer {
       margin: 0px;
       padding-top: 10px;
       box-shadow: none;
     }
-  }
+  } */
+
 
   /* ----------------------------------------- */
 
+  /* About Us Text Header */
+  #aboutUs {
+    margin: 5%;
+  }
 
 /* About Text */
   #aboutText {
@@ -48,3 +53,48 @@
   #famImg {
     width: 90%;
   }
+
+      /* thin screens */
+/* @media screen and (max-width: 280px) and (-webkit-device-pixel-ratio: 2) {
+  #famImg {
+    width: 88%;
+  }
+} */
+
+    /* medium screens */
+@media screen and (min-width: 768px) and (-webkit-device-pixel-ratio: 2) {
+  #famImg {
+    width: 95%;
+  }
+}
+
+/* ------------------ Large Screens --------------- */
+
+/* family image */
+@media screen and (min-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  #famImg {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+/* text in about description */
+@media screen and (min-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  #aboutText {
+    width: 70%;
+    height: 30%;
+    padding: 1%;
+    margin: 2%;
+    /* display: flex; 
+   flex-wrap: wrap; */
+  }
+}
+
+/* container for both image and text description */
+@media screen and (min-width: 1024px) {
+  #imgAndTextContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 4% 4% 4%;
+  }
+}
