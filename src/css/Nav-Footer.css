@@ -37,32 +37,27 @@
 }
 
 
-/* 
-.logoImg {
-    display: block;
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
-  } */
+
 
 /* add shadow on logo when hovering so users know they can click it */
 .logoImg:hover {
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1368px) {
+/* @media screen and (max-width: 1368px) { */
   .logoImg {
     display: block;
     width: 100%;
   }
-}
+/* } */
 
 /* ---------------------------------------------- */
 
 /* ---------------- Only Nav ------------ */
 
 /* Iphone 11 navbar logo - align with hamburger menu*/
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #booknowNav {
     margin-bottom: 40px;
   }
@@ -80,7 +75,7 @@
 } */
 
 /* Iphone 11 navbar logo - align with hamburger menu*/
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #logoImgContainer {
     display: inline-block;
     width: 80%;
@@ -89,7 +84,7 @@
 
 /* ------------------------CSS for using a text version of logo rather than svg ----------------------------*/
 
-/* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #title {
       font-size: 30px;
       margin-top: -10;
@@ -99,7 +94,7 @@
     }
   } */
 
-/* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     .logoImg {
       width:50%;
       display: flex;
@@ -109,14 +104,14 @@
     }
   } */
 
-/* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #tagline {
       font-size: 15px;
       margin-top: -5px;
     }
   } */
 
-/* @media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     .logoImgContainer {
       margin: 25px;
       position: relative;
@@ -126,7 +121,7 @@
 /* ------------------------------------- */
 
 /* iphone 11 hamburger menu - align menu with logo  */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #hamburger {
     display: inline-block;
     width: 15%;
@@ -149,36 +144,23 @@
 }
 
 /* Iphone 11 Icon Button Container */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width:540px)  {
   #fBtn {
-    position: absolute;
+  position: absolute; 
     margin: 20%;
-    padding-top: 30%;
-    order: 3;
+    padding-top: 30%; 
   }
 }
 
-/* Iphone 11 */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-  #fBtn,
-  .fBtn {
-    display: inline-block;
-  }
-}
 
-/* Iphone 11 Logo Image */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-  #logoImg {
-    order: 1;
-  }
+#fText {
+  white-space: nowrap;
 }
 
 /* Iphone 11 copyright text */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #fText {
     margin: 20px;
     padding: 10px;
-    /* flip text and icons */
-    /* order:2; */
   }
 }
