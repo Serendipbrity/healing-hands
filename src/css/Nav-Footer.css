@@ -11,7 +11,9 @@
   background-color: var(--color-three);
   background-image: linear-gradient(to right, #fff, var(--color-two));
   transition: background-color 0.5s ease;
-  /* position:sticky; */
+  z-index: 2;
+  position: relative;
+  width: 100%; 
 }
 
 /* each nav link on regular full screens */
@@ -27,6 +29,7 @@
   align-items: center;
   margin: 15px;
   font-weight: 500;
+  /* display: inline-block;  */
 }
 
 .navLinkChild:hover {
@@ -47,6 +50,7 @@
 
 /* @media screen and (max-width: 1368px) { */
   .logoImg {
+    max-width: 250px;
     display: block;
     width: 100%;
   }
@@ -56,25 +60,15 @@
 
 /* ---------------- Only Nav ------------ */
 
-/* Iphone 11 navbar logo - align with hamburger menu*/
+/* Small Screen navbar logo - align with hamburger menu*/
 @media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #booknowNav {
     margin-bottom: 40px;
   }
 }
 
-/* sub text under logo */
-/* #tagline {
-  text-align: center;
-  display: flex; */
-  /* position: relative; */
-  /* justify-content: center;
-  font-size: larger;
-  font-weight: bold;
-  margin-top: 0px;
-} */
 
-/* Iphone 11 navbar logo - align with hamburger menu*/
+/* Small Screen navbar logo - align with hamburger menu*/
 @media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #logoImgContainer {
     display: inline-block;
@@ -103,6 +97,17 @@
       margin-bottom: -15px;
     }
   } */
+
+  /* sub text under logo */
+/* #tagline {
+  text-align: center;
+  display: flex; */
+  /* position: relative; */
+  /* justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 0px;
+} */
 
 /* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #tagline {
@@ -139,16 +144,26 @@
   text-decoration: none;
   color: black;
   height: 30vh;
-  margin-top: 20px;
-  margin-bottom: -20px;
+  margin-right: 10px;
 }
 
-/* Iphone 11 Icon Button Container */
-@media screen and (max-width:540px)  {
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Small Screen Icon Button Container */
+@media screen and (max-width: 540px) {
   #fBtn {
-  position: absolute; 
-    margin: 20%;
-    padding-top: 30%; 
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -157,10 +172,11 @@
   white-space: nowrap;
 }
 
-/* Iphone 11 copyright text */
+/* Small Screen copyright text */
 @media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {
   #fText {
     margin: 20px;
     padding: 10px;
+    text-align: center;
   }
 }

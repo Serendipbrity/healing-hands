@@ -1,87 +1,96 @@
-/* ------------------ Services CSS -------------- */
 
+/* ------------  Nav And Footer ----------- */
+
+/* nav and footer bars */
+.nfBar {
+  box-shadow: #eecccc 0px 0px 15px;
+  background-color: var(--color-three);
+  background-image: linear-gradient(to right, #fff, var(--color-two));
+  transition: background-color 0.5s ease;
+  z-index: 2; /* Add a z-index to make sure it stays above the services section */
+  position: relative; /* Add position relative for z-index to work */
+}
 
 /* Services Container */
+#services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #services {
-    background-image: url('../assets/images/hands.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
+  background-image: url('../assets/images/hands.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: auto; /* Change this to auto */
+  min-height: 500px;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px; /* Add padding to the top of the services section */
+  padding-bottom: 100px; /* Add padding to the bottom of the services section */
 }
-
-/* iphone 11 Services Container */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    #services {
-        height: 100vh;
-        margin: 0px;
-        padding: 0px;
-    }
-}
-
-/* iphone 11 Services Heading */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-#services h1 {
-    color:white;
+  
+  #services h1 {
+    color: white;
     text-align: center;
     margin: 20%;
     font-size: 35px;
-}
-}
-
-/* iphone 11 background wrap of services */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-#serviceWrap {
-    background-color: rgb(255, 255, 255, 0.2);
+  }
+  
+  #serviceWrap {
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     margin: 30px;
-}
-}
-
-/* iphone 11 Text inside Services */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-.text {
+  }
+  
+  .text {
     text-align: center;
     margin: 20%;
     color: white;
     font-weight: 600;
     font-size: 30px;
-}
-}
-
-/* @media screen and (min-width:320px) and (device-height:750px){
-.calendly-inline-widget {
-    position: relative;
-    
-}
-} */
-
-#sBtn {
+  }
+  
+  #sBtn {
     border-radius: 5px;
-}
-
-/* iphone 11 Services Button */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-#sBtn {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 15px;
-    margin:auto;
+    margin: auto;
     background-color: var(--color-two);
     background-image: linear-gradient(to left, #fff, var(--color-three));
     transition: background-color 0.5s ease;
     border: none;
-}
-}
-
-/* iphone 11 Hover effect over services button */
-@media screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-#sBtn:hover {
+  }
+  
+  #sBtn:hover {
     background-color: var(--color-three);
     background-image: linear-gradient(to right, #fff, var(--color-two));
     transition: background-color 0.5s ease;
     padding: 17px;
-}
-}
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 480px) {
+    #services h1 {
+      font-size: 28px;
+      margin: 10%;
+    }
+  
+    .text {
+      font-size: 18px;
+      margin: 10%;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 1024px) {
+    #services {
+      height: 100vh;
+      padding-bottom: 0; /* Reset padding-bottom for larger screens */
+    }
+  }
+  
