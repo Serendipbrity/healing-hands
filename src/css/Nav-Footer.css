@@ -144,13 +144,31 @@
   text-decoration: none;
   color: black;
   height: 30vh;
-  margin-right: 10px;
 }
 
 .footer-content {
   display: flex;
   align-items: center;
 }
+
+@media screen and (device-width: 412px) and (device-height: 914px){
+  .footer-content {
+    height: 20vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 915px){
+  .footer-content {
+    height: 20vh;
+  }
+}
+
+/* @media screen and (device-width: 412px) and (device-height: 915px) {
+  .footer-content {
+    height: 18vh;
+  }
+  
+} */
 
 /* Small Screen Icon Button Container */
 @media screen and (max-width: 540px) {
@@ -162,7 +180,7 @@
   }
 
   .footer-content {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
   }
 }

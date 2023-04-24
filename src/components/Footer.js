@@ -24,13 +24,7 @@ const Footer = () => {
         className="mx-auto py-4 flex-wrap"
         style={{ width: "80%" }}
       >
-        <CDBBox display="flex" alignItems="center">
-          <a href="/" className="d-flex align-items-center p-0 text-dark">
-            <a className="logoImgContainer">
-              <img href="/" className="logoImg" id="logoImg" src={logo}></img>
-            </a>
-          </a>
-        </CDBBox>
+   
 
         {/* --------------- text version of logo ----------- */}
         {/* <CDBBox display="flex" alignItems="center">
@@ -44,7 +38,14 @@ const Footer = () => {
         </CDBBox> */}
         {/* ----------------------------------------------- */}
 
-        <CDBBox display="flex" id="fBtn">
+        <CDBBox display="flex" id="fBtn" className="footer-content" >
+        <CDBBox display="flex" alignItems="center">
+          <a href="/" className="d-flex align-items-center p-0 text-dark">
+            <a className="logoImgContainer">
+              <img href="/" className="logoImg" id="logoImg" src={logo}></img>
+            </a>
+          </a>
+        </CDBBox>
           <CDBBtn href="https://www.facebook.com/barbara.turbin" flat color="dark" className="p-2 fBtn">
             <CDBIcon fab icon="facebook-f" />
           </CDBBtn>
