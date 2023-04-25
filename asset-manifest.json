@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/healing-hands/static/css/main.7dac5062.css",
-    "main.js": "/healing-hands/static/js/main.4290f60f.js",
+    "main.js": "/healing-hands/static/js/main.23492aef.js",
     "static/js/787.ceeea3b5.chunk.js": "/healing-hands/static/js/787.ceeea3b5.chunk.js",
     "static/media/hands.jpg": "/healing-hands/static/media/hands.d880e7b6e8ffafc6d41f.jpg",
     "static/media/fa-solid-900.svg": "/healing-hands/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
@@ -25,11 +25,11 @@
     "static/media/logo.svg": "/healing-hands/static/media/logo.3152b60fa652bb108ff1aa1ba7bf3cf3.svg",
     "index.html": "/healing-hands/index.html",
     "main.7dac5062.css.map": "/healing-hands/static/css/main.7dac5062.css.map",
-    "main.4290f60f.js.map": "/healing-hands/static/js/main.4290f60f.js.map",
+    "main.23492aef.js.map": "/healing-hands/static/js/main.23492aef.js.map",
     "787.ceeea3b5.chunk.js.map": "/healing-hands/static/js/787.ceeea3b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dac5062.css",
-    "static/js/main.4290f60f.js"
+    "static/js/main.23492aef.js"
   ]
 }
