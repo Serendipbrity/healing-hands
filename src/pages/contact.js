@@ -10,7 +10,7 @@ const Contact = () => {
       <h1 id='contactHeading' className='contact-address'>Contact</h1>
 
         <span className='call' id='call'>Call us at: </span>
-        <a href="tel:+1234567890" className='call'> (240) 808-0933</a>
+        <a href="tel:+2408080933" className='call'> (240) 808-0933</a>
       <p id='address' className='contact-address'>
         Visit us at:<br />
         426 N Centre St <br />
