@@ -53,7 +53,7 @@ const Footer = () => {
           <CDBBtn as={Link} to="/contact" flat color="dark" className=" fBtn ">
             <FontAwesomeIcon  icon={faLocationDot} className="fa-thin" />
           </CDBBtn>
-          <CDBBtn href="tel:+2408080933" flat color="dark" className=" fBtn ">
+          <CDBBtn href="tel:+12408080933" flat color="dark" className=" fBtn ">
             <FontAwesomeIcon  icon={faPhone} className="fa-thin" />
           </CDBBtn>
         </CDBBox>
