@@ -7,7 +7,7 @@ A scheduling / information page for a massage therapy business.
 
 ## Table of Contents 
 
-* Screenshot(#screenshot)
+* [Screenshot](#screenshot)
 
 * [Installation](#installation)
 
