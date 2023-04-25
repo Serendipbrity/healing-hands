@@ -10,7 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: auto; /* Change this to auto */
+    height: auto;
     min-height: 500px;
     margin: 0;
     padding: 0;
@@ -27,7 +27,48 @@
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     margin: 30px;
+
   }
+
+  @media screen and (min-width: 1024px){
+    #serviceWrap {
+        background-color: none;
+       display: flex;
+        /* margin: 10%; */
+        padding: 10%; 
+       /* position:absolute; */
+         /* top: 20%; */
+            /* left: 50%;
+            right: 50%; */
+            justify-content: center;
+            align-items: center;
+             height: 70vh;
+            /* width: 60vw;  */
+            /* flex-wrap: nowrap; */
+            /* flex-direction: row; */
+            grid-template-areas: "a a a"
+            "b b ."
+            ". c c" ;
+    }
+    #services h1 {
+       margin: 2%;
+     
+    }
+    #sBtn {
+       padding-bottom: 2%;
+    }
+    .mins {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      
+        /* position: absolute; */
+        /* top: 50%; */
+        /* background-color: rgba(255, 255, 255, 0.2); */
+    }
+  }
+    
+  
   
   .text {
     text-align: center;
@@ -38,6 +79,7 @@
   }
   
   #sBtn {
+    color: black;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -76,11 +118,17 @@
       margin: 10%;
     }
   }
+
+  @media screen and (device-width: 414px) {
+    .nfBar {
+        height: 25vh;
+    }
+  }
   
   /* Media query for larger screens */
-  @media screen and (min-width: 1024px) {
+  /* @media screen and (min-width: 1024px) {
     #services {
       height: 100vh;
     }
-  }
+  } */
   
