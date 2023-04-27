@@ -6,7 +6,7 @@ import {
   CDBBox,
 
 } from "cdbreact";
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/customSVG.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";

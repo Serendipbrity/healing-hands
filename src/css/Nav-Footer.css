@@ -76,52 +76,7 @@
   }
 }
 
-/* ------------------------CSS for using a text version of logo rather than svg ----------------------------*/
 
-/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    #title {
-      font-size: 30px;
-      margin-top: -10;
-      margin-bottom: 0;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-weight: lighter;
-    }
-  } */
-
-/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    .logoImg {
-      width:50%;
-      display: flex;
-      align-items: center;
-      margin-left: 45%;
-      margin-bottom: -15px;
-    }
-  } */
-
-  /* sub text under logo */
-/* #tagline {
-  text-align: center;
-  display: flex; */
-  /* position: relative; */
-  /* justify-content: center;
-  font-size: larger;
-  font-weight: bold;
-  margin-top: 0px;
-} */
-
-/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    #tagline {
-      font-size: 15px;
-      margin-top: -5px;
-    }
-  } */
-
-/* @media screen and (device-width: 540px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-    .logoImgContainer {
-      margin: 25px;
-      position: relative;
-    }
-  } */
 
 /* ------------------------------------- */
 
