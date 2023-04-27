@@ -53,6 +53,7 @@
     max-width: 250px;
     display: block;
     width: 100%;
+    /* margin-left: 10%; */
   }
 /* } */
 
@@ -90,25 +91,71 @@
 
 /* ---------------- Only Footer ------------ */
 
-/* each icon button */
-.fBtn {
-  margin: 10px;
-}
 
-.footerImg {
-  text-decoration: none;
-  color: black;
-  height: 30vh;
-}
+
 
 .footer-content {
   display: flex;
+flex-direction: column;
+  white-space: nowrap;
   align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+/* icon buttons container */
+#fBtn {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 
-@media screen and (device-width: 412px) and (device-height: 914px){
+/* each icon button */
+.fBtn {
+  /* so they arent touching each other */
+  margin: 10px;
+  height: min-content;
+}
+
+.each {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+@media (min-width: 768px) { /* Adjust the breakpoint based on your design requirements */
   .footer-content {
-    height: 20vh;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+  /* icon buttons container */
+#fBtn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+}
+
+/* .each {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2%;
+} */
+
+/* .each {
+  margin: 1%;
+  flex-flow:column wrap;
+} */
+
+/* @media screen and (max-width: 550px) {
+  .each {
+    display: flex;
+    flex-flow: column wrap;
+  }
+} */
+
+/* @media screen and (device-width: 412px) and (device-height: 914px){
+  .footer-content {
+    height: 30vh;
   }
 }
 
@@ -116,7 +163,7 @@
   .footer-content {
     height: 20vh;
   }
-}
+} */
 
 /* @media screen and (device-width: 412px) and (device-height: 915px) {
   .footer-content {
@@ -141,9 +188,6 @@
 }
 
 
-#fText {
-  white-space: nowrap;
-}
 
 /* Small Screen copyright text */
 @media screen and (max-width:540px) and (-webkit-device-pixel-ratio: 2) {

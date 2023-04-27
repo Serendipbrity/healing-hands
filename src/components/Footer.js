@@ -38,14 +38,18 @@ const Footer = () => {
         </CDBBox> */}
         {/* ----------------------------------------------- */}
 
-        <CDBBox display="flex" id="fBtn" className="footer-content" >
-        <CDBBox display="flex" alignItems="center">
-          <a href="/" className="d-flex align-items-center p-0 text-dark">
+        <CDBBox className="footer-content" >
+        <CDBBox alignItems="center" className="each">
+          <a href="/" className="align-items-center  text-dark">
             <a className="logoImgContainer">
               <img href="/" className="logoImg" id="logoImg" src={logo}></img>
             </a>
-          </a>
-        </CDBBox>
+            </a>
+            </CDBBox>
+    
+  
+          
+          <CDBBox id="fBtn" className="each">
           <CDBBtn href="https://www.facebook.com/barbara.turbin" flat color="dark" className="p-2 fBtn">
             <CDBIcon fab icon="facebook-f" />
           </CDBBtn>
@@ -56,12 +60,14 @@ const Footer = () => {
           <CDBBtn href="tel:+12408080933" flat color="dark" className=" fBtn ">
             <FontAwesomeIcon  icon={faPhone} className="fa-thin" />
           </CDBBtn>
-        </CDBBox>
-        <CDBBox>
-          <small className="ms-2" id="fText">
+          </CDBBox>
+          <CDBBox className="each">
+          <small id="fText">
             &copy; Healing Hands, 2023. All rights reserved.
           </small>
         </CDBBox>
+          </CDBBox>
+  
       </CDBBox>
     </CDBModalFooter>
   );
