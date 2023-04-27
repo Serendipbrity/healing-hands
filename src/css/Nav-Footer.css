@@ -100,7 +100,10 @@ flex-direction: column;
   white-space: nowrap;
   align-items: center;
   justify-content: center;
+  justify-self: center;
   justify-content: space-evenly;
+  /* so its is centered at any screen size */
+  width: 100%; 
 }
 /* icon buttons container */
 #fBtn {
@@ -135,42 +138,7 @@ flex-direction: column;
 }
 }
 
-/* .each {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 2%;
-} */
 
-/* .each {
-  margin: 1%;
-  flex-flow:column wrap;
-} */
-
-/* @media screen and (max-width: 550px) {
-  .each {
-    display: flex;
-    flex-flow: column wrap;
-  }
-} */
-
-/* @media screen and (device-width: 412px) and (device-height: 914px){
-  .footer-content {
-    height: 30vh;
-  }
-}
-
-@media screen and (device-width: 412px) and (device-height: 915px){
-  .footer-content {
-    height: 20vh;
-  }
-} */
-
-/* @media screen and (device-width: 412px) and (device-height: 915px) {
-  .footer-content {
-    height: 18vh;
-  }
-  
-} */
 
 /* Small Screen Icon Button Container */
 @media screen and (max-width: 540px) {
@@ -184,6 +152,7 @@ flex-direction: column;
   .footer-content {
     /* flex-direction: column; */
     align-items: center;
+    
   }
 }
 
