@@ -36,7 +36,7 @@ npm i
 The client asked for the theme to be a pink lotus.
 
 ## Deployment
-https://github.com/Serendipbrity/healing-hands
+https://serendipbrity.github.io/healing-hands/
 
 ## Questions
 
