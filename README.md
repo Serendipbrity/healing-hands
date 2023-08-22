@@ -13,6 +13,8 @@ A scheduling / information page for a massage therapy business.
 
 * [Usage](#usage)
 
+* [Deployment](#deployment)
+
 * [Questions](#questions)
 
 ## Screenshot 
@@ -33,7 +35,8 @@ npm i
 
 The client asked for the theme to be a pink lotus.
 
-
+## Deployment
+https://github.com/Serendipbrity/healing-hands
 
 ## Questions
 
